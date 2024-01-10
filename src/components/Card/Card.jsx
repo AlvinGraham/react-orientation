@@ -5,6 +5,7 @@ import { useState } from 'react';
 function Card(props) {
   const [myName, setMyName] = useState('Alvin');
   const [count, setCount] = useState(0);
+  console.log('Props:', props);
   
   
   function clickChangeName() {
